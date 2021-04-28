@@ -1,13 +1,20 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "Card": {
+    "ClassId": "int",
+    "ItemName": "string",
+    "ItemPrice": "int",
+    "ItemSpecialPrice": "int",
+    "InvalidCards": "boolean"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Pack": {
+    "ClassId": "int",
+    "ItemName": "string",
+    "ItemPrice": "int",
+    "ItemSpecialPrice": "int",
+    "InvalidCards": "InvalidCard[]"
+  },  
+  "InvalidCard": {
+    "ControlNumber": "int",
+    "Error": "String"
   }
 }
