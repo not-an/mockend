@@ -15,6 +15,6 @@
   },  
   "InvalidCard": {
     "ControlNumber": "int",
-    "Error": "String"
+    "Error": "string"
   }
 }
