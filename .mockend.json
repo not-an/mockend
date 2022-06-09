@@ -16,5 +16,8 @@
   "InvalidCard": {
     "ControlNumber": "int",
     "Error": "string"
+  },
+  "Brclub": {
+    "Subscribed": "boolean"
   }
 }
