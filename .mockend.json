@@ -1,23 +1,7 @@
 {
-  "Card": {
-    "ClassId": "int",
-    "ItemName": "string",
-    "ItemPrice": "int",
-    "ItemSpecialPrice": "int",
-    "InvalidCards": "boolean"
-  },
-  "Pack": {
-    "ClassId": "int",
-    "ItemName": "string",
-    "ItemPrice": "int",
-    "ItemSpecialPrice": "int",
-    "InvalidCards": "InvalidCard[]"
-  },  
-  "InvalidCard": {
-    "ControlNumber": "int",
-    "Error": "string"
-  },
   "Brclub": {
-    "Subscribed": "boolean"
+    "Subscribed": {
+      "boolean": {}
+    }
   }
 }
